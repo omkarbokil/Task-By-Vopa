@@ -30,8 +30,8 @@ function TenderDetailsModal({onEvent, tenderID}) {
         <div className='dark:bg-[#1a1a1a] bg-[#F5F5F5] dark:text-[#F5F5F5] text-[#242424] rounded-xl absolute z-50 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] sm:w-[60vw] w-[90vw] h-[70vh] overflow-hidden'>
             <div className='px-5 py-3 flex justify-between items-center sticky top-0 dark:bg-[#1a1a1a] bg-neutral-300 border-b dark:border-neutral-800 border-neutral-300'>
                 <p>Tender Details</p>
-                <div className='p-1 dark:hover:bg-neutral-600 hover:bg-neutral-400 transition-all duration-200 rounded-full cursor-pointer'>
-                    <svg onClick={onEvent} className='w-4' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / Close_MD"> <path id="Vector" d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> </g> </g></svg>
+                <div onClick={onEvent} className='p-1 dark:hover:bg-neutral-600 hover:bg-neutral-400 transition-all duration-200 rounded-full cursor-pointer'>
+                    <svg className='w-4' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / Close_MD"> <path id="Vector" d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> </g> </g></svg>
                 </div>
             </div>
             <div className='p-5 h-[90%] flex items-start overflow-auto'>
